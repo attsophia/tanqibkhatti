@@ -256,3 +256,49 @@ html {
   height: auto !important;
   width: 540px !important;
 }
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+  .top-info {
+    flex-direction: column;
+    padding: 140px 20px 0;
+    gap: 20px;
+  }
+
+  .services {
+    width: 100%;
+    text-align: left;
+  }
+
+  .project {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .project-text {
+    width: 100%;
+  }
+
+  .project-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .project-images img,
+  .project-images video {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .thumb-small,
+  .thumb-small2 {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .project-list {
+    padding: 0 20px 60px;
+    gap: 120px;
+  }
+}
