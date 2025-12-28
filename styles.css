@@ -232,6 +232,13 @@ html {
     }
 
 
+.project-images .second-row {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+
 #elo-vid video {
   border: 0.9px solid black; /* Thin black border */
   box-sizing: border-box;  /* Ensures padding/border don't affect size */
