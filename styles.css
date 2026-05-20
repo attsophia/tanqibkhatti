@@ -244,6 +244,11 @@ html {
   box-sizing: border-box;  /* Ensures padding/border don't affect size */
 }
 
+#diwan-vid video {
+  border: 0.9px solid black; /* Thin black border */
+  box-sizing: border-box;  /* Ensures padding/border don't affect size */
+}
+
 #maqamtv-vid video {
   border: 0.9px solid black; /* Thin black border */
   box-sizing: border-box;  /* Ensures padding/border don't affect size */
